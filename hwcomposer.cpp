@@ -86,7 +86,7 @@ init_display (hwc_context_t * ctx, int disp)
     kms_display_t *d = &ctx->displays[disp];
     const char *modules[] = {
 	"i915", "radeon", "nouveau", "vmwgfx", "omapdrm", "exynos",
-        "tilcdc", "msm", "sti"
+        "tilcdc", "msm", "sti", "hisi"
     };
     int drm_fd;
     drmModeResPtr resources;
