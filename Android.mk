@@ -20,7 +20,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE_RELATIVE_PATH := hw
-LOCAL_SHARED_LIBRARIES := liblog libdrm libkms libhardware libsync
+LOCAL_SHARED_LIBRARIES := liblog libdrm libhardware libsync
 #libion
 LOCAL_SRC_FILES := hwcomposer.cpp
 LOCAL_MODULE := hwcomposer.$(TARGET_BOARD_PLATFORM)
